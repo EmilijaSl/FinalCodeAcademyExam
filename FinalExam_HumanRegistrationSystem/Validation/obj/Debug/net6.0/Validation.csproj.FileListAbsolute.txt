@@ -1,0 +1,12 @@
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Validation\bin\Debug\net6.0\Validation.deps.json
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Validation\bin\Debug\net6.0\Validation.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Validation\bin\Debug\net6.0\Validation.pdb
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Validation\obj\Debug\net6.0\Validation.csproj.AssemblyReference.cache
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Validation\obj\Debug\net6.0\Validation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Validation\obj\Debug\net6.0\Validation.AssemblyInfoInputs.cache
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Validation\obj\Debug\net6.0\Validation.AssemblyInfo.cs
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Validation\obj\Debug\net6.0\Validation.csproj.CoreCompileInputs.cache
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Validation\obj\Debug\net6.0\Validation.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Validation\obj\Debug\net6.0\refint\Validation.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Validation\obj\Debug\net6.0\Validation.pdb
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Validation\obj\Debug\net6.0\ref\Validation.dll

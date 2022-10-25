@@ -1,0 +1,15 @@
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\obj\Debug\net6.0\bsb.csproj.AssemblyReference.cache
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\obj\Debug\net6.0\bsb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\obj\Debug\net6.0\bsb.AssemblyInfoInputs.cache
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\obj\Debug\net6.0\bsb.AssemblyInfo.cs
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\obj\Debug\net6.0\bsb.csproj.CoreCompileInputs.cache
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\bin\Debug\net6.0\bsb.exe
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\bin\Debug\net6.0\bsb.deps.json
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\bin\Debug\net6.0\bsb.runtimeconfig.json
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\bin\Debug\net6.0\bsb.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\bin\Debug\net6.0\bsb.pdb
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\obj\Debug\net6.0\bsb.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\obj\Debug\net6.0\refint\bsb.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\obj\Debug\net6.0\bsb.pdb
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\obj\Debug\net6.0\bsb.genruntimeconfig.cache
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\bsb\bsb\obj\Debug\net6.0\ref\bsb.dll

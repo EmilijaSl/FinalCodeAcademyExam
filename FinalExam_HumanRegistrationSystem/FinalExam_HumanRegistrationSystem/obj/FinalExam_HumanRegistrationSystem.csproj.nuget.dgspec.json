@@ -1,0 +1,336 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\FinalExam_HumanRegistrationSystem\\FinalExam_HumanRegistrationSystem.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\BusinessLogic\\BusinessLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\BusinessLogic\\BusinessLogic.csproj",
+        "projectName": "BusinessLogic",
+        "projectPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\Emilija\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\BusinessLogic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Emilija\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Emilija\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Emilija\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Emilija\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Emilija\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\FinalExam_HumanRegistrationSystem\\FinalExam_HumanRegistrationSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\FinalExam_HumanRegistrationSystem\\FinalExam_HumanRegistrationSystem.csproj",
+        "projectName": "FinalExam_HumanRegistrationSystem",
+        "projectPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\FinalExam_HumanRegistrationSystem\\FinalExam_HumanRegistrationSystem.csproj",
+        "packagesPath": "C:\\Users\\Emilija\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\FinalExam_HumanRegistrationSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Emilija\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\BusinessLogic\\BusinessLogic.csproj"
+              },
+              "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\Validation\\Validation.csproj": {
+                "projectPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\Validation\\Validation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\Validation\\Validation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\Validation\\Validation.csproj",
+        "projectName": "Validation",
+        "projectPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\Validation\\Validation.csproj",
+        "packagesPath": "C:\\Users\\Emilija\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\Validation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Emilija\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
