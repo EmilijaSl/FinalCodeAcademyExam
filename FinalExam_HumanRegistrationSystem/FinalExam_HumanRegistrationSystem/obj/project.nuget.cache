@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JG0/z7w7o9IZe/ing4lJ7DpJFkHte3VMw7y2GN7e/HpPM0cifDUSRgHt9irHijSV4Yse8KJAka2jQfTrjXHMnQ==",
+  "dgSpecHash": "RMsufE+Zj3fMaB+5mbyn2YXEssxI1byaZ0N3xyIIW5jBgX75k6r6O87P2v+bhFkLznZaJmZxVAi65UrzMWks2g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\FinalExam_HumanRegistrationSystem\\FinalExam_HumanRegistrationSystem.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Emilija\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Emilija\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.10\\microsoft.aspnetcore.authentication.jwtbearer.6.0.10.nupkg.sha512",
     "C:\\Users\\Emilija\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\Emilija\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -12,6 +13,7 @@
     "C:\\Users\\Emilija\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
     "C:\\Users\\Emilija\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.10\\microsoft.entityframeworkcore.abstractions.6.0.10.nupkg.sha512",
     "C:\\Users\\Emilija\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.10\\microsoft.entityframeworkcore.analyzers.6.0.10.nupkg.sha512",
+    "C:\\Users\\Emilija\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.10\\microsoft.entityframeworkcore.design.6.0.10.nupkg.sha512",
     "C:\\Users\\Emilija\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.10\\microsoft.entityframeworkcore.relational.6.0.10.nupkg.sha512",
     "C:\\Users\\Emilija\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.10\\microsoft.entityframeworkcore.sqlserver.6.0.10.nupkg.sha512",
     "C:\\Users\\Emilija\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

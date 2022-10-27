@@ -17,5 +17,7 @@ namespace Domain
         public string Role { get; set; }
         public UserInformation userInformation { get; set; }
 
+        public User()
+        { }
     }
 }

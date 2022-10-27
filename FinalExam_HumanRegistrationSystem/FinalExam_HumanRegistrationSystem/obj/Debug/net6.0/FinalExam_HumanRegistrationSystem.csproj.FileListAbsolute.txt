@@ -67,3 +67,5 @@ C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrati
 C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\FinalExam_HumanRegistrationSystem\obj\Debug\net6.0\FinalExam_HumanRegistrationSystem.pdb
 C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\FinalExam_HumanRegistrationSystem\obj\Debug\net6.0\FinalExam_HumanRegistrationSystem.genruntimeconfig.cache
 C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\FinalExam_HumanRegistrationSystem\obj\Debug\net6.0\ref\FinalExam_HumanRegistrationSystem.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\FinalExam_HumanRegistrationSystem\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\FinalExam_HumanRegistrationSystem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

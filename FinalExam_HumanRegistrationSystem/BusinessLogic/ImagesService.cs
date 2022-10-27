@@ -17,13 +17,13 @@ namespace BusinessLogic
             _dbRepository = dbRepository;
         }
 
-        public async Task<Image> AddImageAsync(byte[] imageBytes, string fileName, string contentType)
+        public async Task<Image> AddImageAsync(byte[] imageBytes, string contentType)
         {
             var image = new Image
             {
                 ImageBytes = imageBytes,
                 ContentType = contentType,
-                FileName = fileName
+                
             };
 
             await _dbRepository.AddImageAsync(image);

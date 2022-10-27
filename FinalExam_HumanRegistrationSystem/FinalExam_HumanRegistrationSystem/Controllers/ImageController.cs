@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace FinalExam_HumanRegistrationSystem.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    
     public class ImageController : ControllerBase
     {
         private readonly IImagesService _imagesService;
@@ -23,7 +23,7 @@ namespace FinalExam_HumanRegistrationSystem.Controllers
             request.Image.CopyTo(memoryStream);
             var imageBytes = memoryStream.ToArray();
 
-            var savedImage = await _imagesService.AddImageAsync(imageBytes, request.Image.FileName, request.Image.ContentType);
+            var savedImage = await _imagesService.AddImageAsync(imageBytes, request.Image.ContentType);
 
             return Ok(savedImage.Id);
         }

@@ -12,10 +12,12 @@ namespace Domain
     {
         [Key]
         public int Id { get; set; }
-        public string FileName { get; set; }
         public string ContentType { get; set; }
         public byte[] ImageBytes { get; set; }
-        [ForeignKey("User")]
-        public int UserId { get; set; }
+        [ForeignKey("UserInformation")]
+        public int? UserInformationId { get; set; }
+        public UserInformation? UserInformation { get; set; }
+        public Image()
+        { }
     }
 }
