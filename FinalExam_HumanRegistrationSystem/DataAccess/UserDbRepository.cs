@@ -20,17 +20,9 @@ namespace DataAccess
         {
             return await _context.Users.SingleOrDefaultAsync(x => x.Username == username);
         }
-
         public async Task InsertUserAsync(User user)
         {
             await _context.Users.AddAsync(user);
-        }
-        public async Task InsertUserFullInfoAsync(User user, UserInformation info, PlaceOfResidence place, Image image)
-        {
-            await _context.Users.AddAsync(user);
-            await _context.UsersInformation.AddAsync(info);
-            await _context.Places.AddAsync(place);
-            await _context.Images.AddAsync(image);
         }
         public async Task<User?> GetUserById(int id)
         {
@@ -40,5 +32,6 @@ namespace DataAccess
         {
             await _context.SaveChangesAsync();
         }
+
     }
 }

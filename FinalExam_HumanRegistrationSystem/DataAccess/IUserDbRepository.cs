@@ -13,6 +13,6 @@ namespace DataAccess
         Task InsertUserAsync(User user);
         Task<User?> GetUserById(int id);
         Task SaveChangesAsync();
-        Task InsertUserFullInfoAsync(User user, UserInformation info, PlaceOfResidence place, Image image);
+        
     }
 }
