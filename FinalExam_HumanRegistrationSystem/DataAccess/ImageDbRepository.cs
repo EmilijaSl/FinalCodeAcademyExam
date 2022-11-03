@@ -11,9 +11,10 @@ namespace DataAccess
             _context = context;
         }
 
-        public async Task AddImageAsync(Image image)
+        public async Task<Image> AddImageAsync(Image image)
         {
             await _context.Images.AddAsync(image);
+            return image;
         }
 
         public async Task<Image> GetImageAsync(int id)

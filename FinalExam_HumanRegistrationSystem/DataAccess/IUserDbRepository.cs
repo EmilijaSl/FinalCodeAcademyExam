@@ -13,6 +13,8 @@ namespace DataAccess
         Task InsertUserAsync(User user);
         Task<User?> GetUserById(int id);
         Task SaveChangesAsync();
+       // Task UpdateUserAsync(int id, string name);
+        Task<User> GetUserByIdAsync(int id);
         
     }
 }

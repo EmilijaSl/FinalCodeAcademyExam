@@ -1,7 +1,10 @@
 ﻿using BusinessLogic;
+using Domain;
 using FinalExam_HumanRegistrationSystem.Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace FinalExam_HumanRegistrationSystem.Controllers
 {
@@ -47,5 +50,6 @@ namespace FinalExam_HumanRegistrationSystem.Controllers
 
             return BadRequest(new { ErrorMessage = "Login failed" });
         }
+    
     }
 }

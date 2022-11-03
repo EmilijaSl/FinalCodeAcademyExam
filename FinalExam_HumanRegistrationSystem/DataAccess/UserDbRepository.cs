@@ -1,10 +1,6 @@
 ﻿using Domain;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace DataAccess
 {
@@ -26,11 +22,17 @@ namespace DataAccess
         }
         public async Task<User?> GetUserById(int id)
         {
-            return await _context.Users.FirstOrDefaultAsync(x => x.Id == id);
+            return await _context.Users.Include(x => x.userInformation).Include(x => x.userInformation.ProfilePicture).Include(x => x.userInformation.PlaceOfResidenceInfo).
+                FirstOrDefaultAsync(u => u.Id == id);
         }
         public async Task SaveChangesAsync()
         {
             await _context.SaveChangesAsync();
+        }
+        public async Task<User> GetUserByIdAsync(int id)
+        {
+            return await _context.Users.Include(x => x.userInformation).Include(x => x.userInformation.ProfilePicture).Include(x => x.userInformation.PlaceOfResidenceInfo).
+                FirstOrDefaultAsync(u => u.Id == id);
         }
 
     }

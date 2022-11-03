@@ -14,7 +14,7 @@ namespace DataAccess.Extensions
             services.AddScoped<IUserDbRepository, UserDbRepository>();
             services.AddScoped<IUserInformationDbRepository, UserInformationDbRepository>();
             services.AddScoped<IImageDbRepository, ImageDbRepository>();
-            services.AddScoped<IUserInformationDbRepository, UserInformationDbRepository>();
+            services.AddScoped<IPlaceOfResidenceDbRepository, PlaceOfResidenceDbRepository>();
 
             return services;
         }
