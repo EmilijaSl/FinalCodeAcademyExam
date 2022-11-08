@@ -26,5 +26,11 @@ namespace DataAccess
         {
             await _context.SaveChangesAsync();
         }
+        public async Task ChangeProfilePictureAsync(int userId, Image profilePicture)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == userId);
+            user.userInformation.ProfilePicture = profilePicture;
+            _context.Attach(user);
+        }
     }
 }

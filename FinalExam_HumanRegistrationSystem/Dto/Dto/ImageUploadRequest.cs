@@ -1,4 +1,5 @@
-﻿using Validation;
+﻿using Microsoft.AspNetCore.Http;
+using Validation;
 
 namespace FinalExam_HumanRegistrationSystem.Dto
 {

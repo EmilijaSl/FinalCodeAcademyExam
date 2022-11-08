@@ -50,6 +50,38 @@ namespace FinalExam_HumanRegistrationSystem.Controllers
 
             return BadRequest(new { ErrorMessage = "Login failed" });
         }
-    
+        [HttpGet("GetUserInfo")]
+        [Authorize]
+        public async Task<IActionResult> GetUserInfo()
+        {
+            var userId = int.Parse(User.Claims.FirstOrDefault(u => u.Type == ClaimTypes.NameIdentifier).Value);
+            var user = await _userAccountService.GetUserByIdAsync(userId);
+
+            var infoToReturn = new GetUserDto
+            {
+                UserName = user.Username,
+                Role = user.Role,
+                Name = user.userInformation.Name,
+                LastName = user.userInformation.LastName,
+                PersonalCode = user.userInformation.PersonalCode,
+                Phone = user.userInformation.PhoneNumber,
+                Email = user.userInformation.Email,
+                City = user.userInformation.PlaceOfResidenceInfo.City,
+                Street = user.userInformation.PlaceOfResidenceInfo.Street,
+                HouseNumber = user.userInformation.PlaceOfResidenceInfo.HouseNumber,
+                ApartmentNumber = user.userInformation.PlaceOfResidenceInfo.ApartmentNumber,
+                ProfilePicture = user.userInformation.ProfilePicture.ImageBytes
+            };
+            return Ok(infoToReturn);
+        }
+        [HttpDelete("DeleteUser")]
+        [Authorize(Roles = "admin")]
+        public async Task<IActionResult> DeleteUser(int userId)
+        {
+
+            await _userAccountService.DeleteUserAsync(userId);
+            return Ok();
+        }
+
     }
 }

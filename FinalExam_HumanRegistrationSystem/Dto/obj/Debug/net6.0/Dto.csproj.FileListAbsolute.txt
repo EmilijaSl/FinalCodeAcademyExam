@@ -1,0 +1,15 @@
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\obj\Debug\net6.0\Dto.csproj.AssemblyReference.cache
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\obj\Debug\net6.0\Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\obj\Debug\net6.0\Dto.AssemblyInfoInputs.cache
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\obj\Debug\net6.0\Dto.AssemblyInfo.cs
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\obj\Debug\net6.0\Dto.csproj.CoreCompileInputs.cache
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\bin\Debug\net6.0\Dto.deps.json
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\bin\Debug\net6.0\Dto.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\bin\Debug\net6.0\Dto.pdb
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\bin\Debug\net6.0\Validation.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\bin\Debug\net6.0\Validation.pdb
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\obj\Debug\net6.0\Dto.csproj.CopyComplete
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\obj\Debug\net6.0\Dto.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\obj\Debug\net6.0\refint\Dto.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\obj\Debug\net6.0\Dto.pdb
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\Dto\obj\Debug\net6.0\ref\Dto.dll

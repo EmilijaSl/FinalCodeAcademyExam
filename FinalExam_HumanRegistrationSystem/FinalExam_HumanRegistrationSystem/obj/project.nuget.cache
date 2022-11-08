@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RMsufE+Zj3fMaB+5mbyn2YXEssxI1byaZ0N3xyIIW5jBgX75k6r6O87P2v+bhFkLznZaJmZxVAi65UrzMWks2g==",
+  "dgSpecHash": "5GhdlTHSmQwn+/6SVyRv/oXKmRalxt0bOYomzGH5Lb3UkezecujEbaEjRMogpnH056UHkxlmj3tIIyhaGjwllQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Emilija\\Documents\\GitHub\\FinalCodeAcademyExam\\FinalExam_HumanRegistrationSystem\\FinalExam_HumanRegistrationSystem\\FinalExam_HumanRegistrationSystem.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Emilija\\.nuget\\packages\\aspose.drawing\\22.10.0\\aspose.drawing.22.10.0.nupkg.sha512",
     "C:\\Users\\Emilija\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Emilija\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.10\\microsoft.aspnetcore.authentication.jwtbearer.6.0.10.nupkg.sha512",
     "C:\\Users\\Emilija\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",

@@ -1,5 +1,6 @@
 ﻿using DataAccess;
 using Domain;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -83,7 +84,16 @@ namespace BusinessLogic
 
             return computedHash.SequenceEqual(passwordHash);
         }
-    
+        public async Task<User> GetUserByIdAsync(int id)
+        {
+            return await _dbRepository.GetUserByIdAsync(id);
+        }
+        public async Task DeleteUserAsync(int id)
+        {
+            var userToDelete = await _dbRepository.GetUserByIdAsync(id);
+            await _dbRepository.DeleteUserAsync(userToDelete);
+            await _dbRepository.SaveChangesAsync();
+        }
 
     }
 }

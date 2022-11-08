@@ -34,6 +34,10 @@ namespace DataAccess
             return await _context.Users.Include(x => x.userInformation).Include(x => x.userInformation.ProfilePicture).Include(x => x.userInformation.PlaceOfResidenceInfo).
                 FirstOrDefaultAsync(u => u.Id == id);
         }
+        public async Task DeleteUserAsync(User user)
+        {
+            _context.Remove(user);
+        }
 
     }
 }

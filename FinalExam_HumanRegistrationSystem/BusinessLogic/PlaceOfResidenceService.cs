@@ -19,25 +19,41 @@ namespace DataAccess
         {
             return await _dbRepository.GetUserById(id);
         }
-        public async Task ChangeCityAsync(int userId, string email)
+        public async Task ChangeCityAsync(int id, string email)
         {
-            await _dbRepository.ChangeCityAsync(userId, email);
-            await _dbRepository.SaveChangesAsync();
+            var userFromDb = _dbRepository.GetUserById(id);
+            if (userFromDb != null)
+            {
+                await _dbRepository.ChangeCityAsync(id, email);
+                await _dbRepository.SaveChangesAsync();
+            }
         }
-        public async Task ChangeStreetAsync(int userId, string street)
+        public async Task ChangeStreetAsync(int id, string street)
         {
-            await _dbRepository.ChangeStreetAsync(userId, street);
-            await _dbRepository.SaveChangesAsync();
+            var userFromDb = _dbRepository.GetUserById(id);
+            if (userFromDb != null)
+            {
+                await _dbRepository.ChangeStreetAsync(id, street);
+                await _dbRepository.SaveChangesAsync();
+            }
         }
-        public async Task ChangeHouseNumberAsync(int userId, string houseNumber)
+        public async Task ChangeHouseNumberAsync(int id, string houseNumber)
         {
-            await _dbRepository.ChangeHouseNumberAsync(userId, houseNumber);
-            await _dbRepository.SaveChangesAsync();
+            var userFromDb = _dbRepository.GetUserById(id);
+            if (userFromDb != null)
+            {
+                await _dbRepository.ChangeHouseNumberAsync(id, houseNumber);
+                await _dbRepository.SaveChangesAsync();
+            }  
         }
-        public async Task ChangeApartmentNumberAsync(int userId, string apartmentNumber)
+        public async Task ChangeApartmentNumberAsync(int id, string apartmentNumber)
         {
-            await _dbRepository.ChangeApartmentNumber(userId, apartmentNumber);
-            await _dbRepository.SaveChangesAsync();
+            var userFromDb = _dbRepository.GetUserById(id);
+            if (userFromDb != null)
+            {
+                await _dbRepository.ChangeApartmentNumber(id, apartmentNumber);
+                await _dbRepository.SaveChangesAsync();
+            }   
         }
     }
 }

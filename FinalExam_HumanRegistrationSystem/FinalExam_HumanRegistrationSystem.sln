@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalExam_HumanRegistrationSystem", "FinalExam_HumanRegistrationSystem\FinalExam_HumanRegistrationSystem.csproj", "{D555650A-CAFC-47A5-82A7-E1478CA7F1F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalExam_HumanRegistrationSystem", "FinalExam_HumanRegistrationSystem\FinalExam_HumanRegistrationSystem.csproj", "{D555650A-CAFC-47A5-82A7-E1478CA7F1F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{159A724B-9B1D-430E-B28E-D9601C405A6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{159A724B-9B1D-430E-B28E-D9601C405A6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validation", "Validation\Validation.csproj", "{3B7A9EEC-B61E-412C-87C0-47407B72F19F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Validation", "Validation\Validation.csproj", "{3B7A9EEC-B61E-412C-87C0-47407B72F19F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{FD6A1D6D-DFB4-4CA0-AA98-0DDEE12500F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{FD6A1D6D-DFB4-4CA0-AA98-0DDEE12500F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{C7513629-5329-4027-B780-CD98EEC2F60E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{C7513629-5329-4027-B780-CD98EEC2F60E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dto", "Dto\Dto.csproj", "{8BE13D7A-92F8-4854-B019-121BB3CD9997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{52693813-C0D5-48AB-B09F-582F6445C50D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{C7513629-5329-4027-B780-CD98EEC2F60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7513629-5329-4027-B780-CD98EEC2F60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7513629-5329-4027-B780-CD98EEC2F60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE13D7A-92F8-4854-B019-121BB3CD9997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE13D7A-92F8-4854-B019-121BB3CD9997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE13D7A-92F8-4854-B019-121BB3CD9997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE13D7A-92F8-4854-B019-121BB3CD9997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52693813-C0D5-48AB-B09F-582F6445C50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52693813-C0D5-48AB-B09F-582F6445C50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52693813-C0D5-48AB-B09F-582F6445C50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52693813-C0D5-48AB-B09F-582F6445C50D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

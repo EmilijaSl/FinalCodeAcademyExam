@@ -10,9 +10,9 @@ namespace DataAccess
     public interface IPlaceOfResidenceService
     {
         Task<PlaceOfResidence> GetResidentialInfoAsync(int id);
-        Task ChangeCityAsync(int userId, string email);
-        Task ChangeStreetAsync(int userId, string street);
-        Task ChangeHouseNumberAsync(int userId, string houseNumber);
-        Task ChangeApartmentNumberAsync(int userId, string apartmentNumber);
+        Task ChangeCityAsync(int id, string email);
+        Task ChangeStreetAsync(int id, string street);
+        Task ChangeHouseNumberAsync(int id, string houseNumber);
+        Task ChangeApartmentNumberAsync(int id, string apartmentNumber);
     }
 }

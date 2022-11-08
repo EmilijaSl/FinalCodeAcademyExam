@@ -1,7 +1,9 @@
 ﻿using BusinessLogic;
 using FinalExam_HumanRegistrationSystem.Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace FinalExam_HumanRegistrationSystem.Controllers
 {
@@ -33,6 +35,22 @@ namespace FinalExam_HumanRegistrationSystem.Controllers
         {
             var image = await _imagesService.GetImageAsync(id);
             return File(image.ImageBytes, image.ContentType);
+        }
+        [HttpPut]
+        [Authorize]
+        public async Task<IActionResult> ChangeProfilePic(ImageUploadDto imageDto)
+        {
+            if (imageDto == null)
+            {
+                return BadRequest("Need to upload picture");
+            }
+            var userId = int.Parse(User.Claims.FirstOrDefault(u => u.Type == ClaimTypes.NameIdentifier).Value);
+            var imageBytes = await _imagesService.GetImageBytesForProfilePicChangeAsync(imageDto);
+
+
+            _imagesService.ChangeProfilePictureAsync(userId, imageBytes, imageDto.ProfilePic.ContentType.ToString());
+
+            return Ok();
         }
     }
 }
