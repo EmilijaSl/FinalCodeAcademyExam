@@ -1,15 +1,12 @@
 ﻿using DataAccess;
-using FinalExam_HumanRegistrationSystem.Dto;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
-using System.Xml.Linq;
 
 namespace FinalExam_HumanRegistrationSystem.Controllers
 {
     [Route("api/[controller]")]
-    
+
     public class UserInformationController : ControllerBase
     {
         private readonly IUserInformationService _userInformationService;
@@ -24,7 +21,6 @@ namespace FinalExam_HumanRegistrationSystem.Controllers
             if (string.IsNullOrWhiteSpace(name))
             {
                 return BadRequest("Info can't be null or whistespace");
-
             }
             var userId = int.Parse(User.Claims.FirstOrDefault(u => u.Type == ClaimTypes.NameIdentifier).Value);
             await _userInformationService.UpdateUserNameAsync(userId, name);
@@ -37,7 +33,6 @@ namespace FinalExam_HumanRegistrationSystem.Controllers
             if (string.IsNullOrWhiteSpace(lastname))
             {
                 return BadRequest("Info can't be null or whistespace");
-
             }
             var userId = int.Parse(User.Claims.FirstOrDefault(u => u.Type == ClaimTypes.NameIdentifier).Value);
             await _userInformationService.UpdateUserLastNameAsync(userId, lastname);
@@ -50,7 +45,6 @@ namespace FinalExam_HumanRegistrationSystem.Controllers
             if (string.IsNullOrWhiteSpace(pk))
             {
                 return BadRequest("Info can't be null or whistespace");
-
             }
             var userId = int.Parse(User.Claims.FirstOrDefault(u => u.Type == ClaimTypes.NameIdentifier).Value);
             await _userInformationService.UpdateUserPKAsync(userId, pk);
@@ -63,7 +57,6 @@ namespace FinalExam_HumanRegistrationSystem.Controllers
             if (string.IsNullOrWhiteSpace(phone))
             {
                 return BadRequest("Info can't be null or whistespace");
-
             }
             var userId = int.Parse(User.Claims.FirstOrDefault(u => u.Type == ClaimTypes.NameIdentifier).Value);
             await _userInformationService.UpdateUserPhoneAsync(userId, phone);
@@ -76,7 +69,6 @@ namespace FinalExam_HumanRegistrationSystem.Controllers
             if (string.IsNullOrWhiteSpace(email))
             {
                 return BadRequest("Info can't be null or whistespace");
-
             }
             var userId = int.Parse(User.Claims.FirstOrDefault(u => u.Type == ClaimTypes.NameIdentifier).Value);
             await _userInformationService.UpdateUserEmailAsync(userId, email);

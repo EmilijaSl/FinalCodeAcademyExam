@@ -24,10 +24,8 @@ namespace BusinessLogic
                 ContentType = contentType,
 
             };
-
             await _dbRepository.AddImageAsync(image);
             await _dbRepository.SaveChangesAsync();
-
             return image;
         }
 
@@ -72,10 +70,10 @@ namespace BusinessLogic
 
             return resizedImage;
         }
-        public async Task ChangeProfilePicAsync(int userId, byte[] imageBytes, string contentType)
-        {
-            await _dbRepository.ChangeProfilePictureAsync(userId, imageBytes, contentType);
-            await _dbRepository.SaveChangesAsync();
-        }
+        //public async Task ChangeProfilePicAsync(int userId, byte[] imageBytes, string contentType)
+        //{
+        //    await _dbRepository.ChangeProfilePictureAsync(userId, imageBytes, contentType);
+        //    await _dbRepository.SaveChangesAsync();
+        //}
     }
 }

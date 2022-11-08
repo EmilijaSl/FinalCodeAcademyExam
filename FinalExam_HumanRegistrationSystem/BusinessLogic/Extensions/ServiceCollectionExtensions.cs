@@ -1,8 +1,5 @@
 ﻿using DataAccess;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
 
 namespace BusinessLogic.Extensions
 {
@@ -17,7 +14,6 @@ namespace BusinessLogic.Extensions
             services.AddScoped<IPlaceOfResidenceService, PlaceOfResidenceService>();
 
             return services;
-
         }
     }
 }

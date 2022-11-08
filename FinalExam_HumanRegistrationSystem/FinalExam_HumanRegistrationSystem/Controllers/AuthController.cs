@@ -1,8 +1,6 @@
 ﻿using BusinessLogic;
-using Domain;
 using FinalExam_HumanRegistrationSystem.Dto;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
@@ -50,7 +48,7 @@ namespace FinalExam_HumanRegistrationSystem.Controllers
 
             return BadRequest(new { ErrorMessage = "Login failed" });
         }
-        [HttpGet("GetUserInfo")]
+        [HttpGet("Get User Information")]
         [Authorize]
         public async Task<IActionResult> GetUserInfo()
         {
@@ -74,11 +72,10 @@ namespace FinalExam_HumanRegistrationSystem.Controllers
             };
             return Ok(infoToReturn);
         }
-        [HttpDelete("DeleteUser")]
+        [HttpDelete("Delete User")]
         [Authorize(Roles = "admin")]
         public async Task<IActionResult> DeleteUser(int userId)
         {
-
             await _userAccountService.DeleteUserAsync(userId);
             return Ok();
         }

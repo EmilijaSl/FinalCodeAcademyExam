@@ -69,3 +69,6 @@ C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrati
 C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\FinalExam_HumanRegistrationSystem\obj\Debug\net6.0\ref\FinalExam_HumanRegistrationSystem.dll
 C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\FinalExam_HumanRegistrationSystem\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\FinalExam_HumanRegistrationSystem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\FinalExam_HumanRegistrationSystem\bin\Debug\net6.0\Aspose.Drawing.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\FinalExam_HumanRegistrationSystem\bin\Debug\net6.0\Dto.dll
+C:\Users\Emilija\Documents\GitHub\FinalCodeAcademyExam\FinalExam_HumanRegistrationSystem\FinalExam_HumanRegistrationSystem\bin\Debug\net6.0\Dto.pdb

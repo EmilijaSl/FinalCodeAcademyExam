@@ -1,12 +1,7 @@
 ﻿using DataAccess;
 using Domain;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace BusinessLogic
 {
@@ -67,7 +62,6 @@ namespace BusinessLogic
 
             return (true, user);
         }
-
         private (byte[] hash, byte[] salt) CreatePasswordHash(string password)
         {
             using var hmac = new HMACSHA512();
@@ -76,7 +70,6 @@ namespace BusinessLogic
 
             return (hash, salt);
         }
-
         private bool VerifyPasswordHash(string password, byte[] passwordHash, byte[] passwordSalt)
         {
             using var hmac = new HMACSHA512(passwordSalt);
@@ -94,6 +87,5 @@ namespace BusinessLogic
             await _dbRepository.DeleteUserAsync(userToDelete);
             await _dbRepository.SaveChangesAsync();
         }
-
     }
 }

@@ -23,7 +23,6 @@ namespace Validation
                     return new ValidationResult("Foto type is not supported.");
                 }
             }
-
             return ValidationResult.Success;
         }
     }

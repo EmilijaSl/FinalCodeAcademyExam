@@ -1,10 +1,5 @@
 ﻿using Domain;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccess
 {
@@ -46,7 +41,7 @@ namespace DataAccess
         {
             var existingUser = await _context.Users.Include(u => u.userInformation).Include(u => u.userInformation.PlaceOfResidenceInfo)
              .FirstOrDefaultAsync(u => u.Id == userId);
-            existingUser.userInformation.PlaceOfResidenceInfo.HouseNumber= houseNumber;
+            existingUser.userInformation.PlaceOfResidenceInfo.HouseNumber = houseNumber;
         }
 
         public async Task ChangeApartmentNumber(int userId, string apartmentNumber)

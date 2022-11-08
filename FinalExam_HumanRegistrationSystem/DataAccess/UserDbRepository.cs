@@ -38,6 +38,5 @@ namespace DataAccess
         {
             _context.Remove(user);
         }
-
     }
 }

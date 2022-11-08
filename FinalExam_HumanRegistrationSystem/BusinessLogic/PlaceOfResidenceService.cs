@@ -1,9 +1,4 @@
 ﻿using Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccess
 {
@@ -44,7 +39,7 @@ namespace DataAccess
             {
                 await _dbRepository.ChangeHouseNumberAsync(id, houseNumber);
                 await _dbRepository.SaveChangesAsync();
-            }  
+            }
         }
         public async Task ChangeApartmentNumberAsync(int id, string apartmentNumber)
         {
@@ -53,7 +48,7 @@ namespace DataAccess
             {
                 await _dbRepository.ChangeApartmentNumber(id, apartmentNumber);
                 await _dbRepository.SaveChangesAsync();
-            }   
+            }
         }
     }
 }

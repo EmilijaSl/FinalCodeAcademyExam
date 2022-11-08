@@ -1,11 +1,5 @@
 ﻿using Domain;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace DataAccess
 {
@@ -53,6 +47,5 @@ namespace DataAccess
             var existingUser = await _context.Users.Include(x => x.userInformation).FirstOrDefaultAsync(u => u.Id == id);
             existingUser.userInformation.Email = email;
         }
-
     }
 }

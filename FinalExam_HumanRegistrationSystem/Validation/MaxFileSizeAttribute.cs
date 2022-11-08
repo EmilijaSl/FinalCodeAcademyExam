@@ -21,7 +21,6 @@ namespace Validation
                     return new ValidationResult($"Maximum allowed file size is {_maxFileSize} bytes.");
                 }
             }
-
             return ValidationResult.Success;
         }
     }
