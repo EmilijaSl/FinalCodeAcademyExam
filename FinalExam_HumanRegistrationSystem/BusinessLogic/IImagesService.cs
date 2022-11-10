@@ -1,4 +1,5 @@
 ﻿using Domain;
+using FinalExam_HumanRegistrationSystem.Dto;
 
 namespace BusinessLogic
 {
@@ -6,5 +7,8 @@ namespace BusinessLogic
     {
         Task<Image> AddImageAsync(byte[] imageBytes, string contentType);
         Task<Image> GetImageAsync(int id);
+        Task ChangeProfilePictureAsync(int userId, byte[] imageBytes, string contentType);
+        Task<byte[]> GetImageBytesForProfilePictureChangeAsync(ImageUploadRequest imageDto);
+
     }
 }

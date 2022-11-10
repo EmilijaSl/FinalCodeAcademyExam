@@ -61,7 +61,7 @@ namespace BusinessLogic
             var resizedImage = await ResizeImage(imageBytes, dto.Image.ContentType);
             return resizedImage;
         }
-        public async Task<byte[]> GetImageBytesForProfilePicChangeAsync(ImageUploadRequest imageDto)
+        public async Task<byte[]> GetImageBytesForProfilePictureChangeAsync(ImageUploadRequest imageDto)
         {
             using var memoryStream = new MemoryStream();
             imageDto.Image.CopyTo(memoryStream);
@@ -70,10 +70,10 @@ namespace BusinessLogic
 
             return resizedImage;
         }
-        //public async Task ChangeProfilePicAsync(int userId, byte[] imageBytes, string contentType)
-        //{
-        //    await _dbRepository.ChangeProfilePictureAsync(userId, imageBytes, contentType);
-        //    await _dbRepository.SaveChangesAsync();
-        //}
+        public async Task ChangeProfilePictureAsync(int userId, byte[] imageBytes, string contentType)
+        {
+            await _dbRepository.ChangeProfilePicAsync(userId, imageBytes, contentType);
+            await _dbRepository.SaveChangesAsync();
+        }
     }
 }

@@ -17,10 +17,9 @@ namespace Validation
             if (value is IFormFile file)
             {
                 var extension = Path.GetExtension(file.FileName);
-
                 if (!_allowedExtensions.Contains(extension.ToLower()))
                 {
-                    return new ValidationResult("Foto type is not supported.");
+                    return new ValidationResult("Incorect profile foto type");
                 }
             }
             return ValidationResult.Success;

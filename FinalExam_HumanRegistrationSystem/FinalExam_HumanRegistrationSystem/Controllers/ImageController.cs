@@ -1,6 +1,8 @@
 ﻿using BusinessLogic;
 using FinalExam_HumanRegistrationSystem.Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace FinalExam_HumanRegistrationSystem.Controllers
 {
@@ -33,21 +35,21 @@ namespace FinalExam_HumanRegistrationSystem.Controllers
             var image = await _imagesService.GetImageAsync(id);
             return File(image.ImageBytes, image.ContentType);
         }
-        //[HttpPut]
-        //[Authorize]
-        //public async Task<IActionResult> ChangeProfilePic(ImageUploadDto imageDto)
-        //{
-        //    if (imageDto == null)
-        //    {
-        //        return BadRequest("Need to upload picture");
-        //    }
-        //    var userId = int.Parse(User.Claims.FirstOrDefault(u => u.Type == ClaimTypes.NameIdentifier).Value);
-        //    var imageBytes = await _imagesService.GetImageBytesForProfilePicChangeAsync(imageDto);
+        [HttpPut("Change Profile Picture")]
+        [Authorize]
+        public async Task<IActionResult> ChangeProfilePic(ImageUploadRequest imageDto)
+        {
+            if (imageDto == null)
+            {
+                return BadRequest("Need to upload picture");
+            }
+            var userId = int.Parse(User.Claims.FirstOrDefault(u => u.Type == ClaimTypes.NameIdentifier).Value);
+            var imageBytes = await _imagesService.GetImageBytesForProfilePictureChangeAsync(imageDto);
+            var contentType = imageDto.Image.ContentType;
 
+            await _imagesService.ChangeProfilePictureAsync(userId, imageBytes, contentType);
 
-        //    _imagesService.ChangeProfilePictureAsync(userId, imageBytes, imageDto.ProfilePic.ContentType.ToString());
-
-        //    return Ok();
-        //}
+            return Ok();
+        }
     }
 }

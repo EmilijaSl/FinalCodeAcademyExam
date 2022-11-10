@@ -7,6 +7,6 @@ namespace DataAccess
         Task<Image> AddImageAsync(Image image);
         Task<Image> GetImageAsync(int id);
         Task SaveChangesAsync();
-        Task ChangeProfilePictureAsync(int userId, Image profilePicture);
+        Task ChangeProfilePicAsync(int userId, byte[] imageBytes, string contentType);
     }
 }
